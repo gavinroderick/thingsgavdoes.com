@@ -27,7 +27,15 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #0E273C;
+  /* background-color: #0E273C; */
+  background-image: url("../img/bg.jpeg");
+  background-size: cover;
+}
+
+.tinted-bg{
+	background-size: cover;
+	background: radial-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.80) );
+	width: -webkit-fill-available;
 }
 
 body {
@@ -152,7 +160,7 @@ a.socialIcon:hover, .socialHoverClass {
 	width: 50px;
 	height: 50px;
 	font-size:20px;
-	background-color: #D3D3D3;
+	background-color: #0E273C;
 }
 .social-circle li i {
 	margin:0;
